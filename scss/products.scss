@@ -1,0 +1,567 @@
+.products{
+    width: 100%;
+    height: 100%;
+    //background-color: limegreen;
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    //justify-content: center;
+
+    h1{
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        display: flex;
+        font-size: 60px;
+        text-align: center;
+        color: black;
+    }
+
+    h2{
+        font-size: 30px;
+        color: #0046be;
+        align-items: baseline;
+        margin-left: 20px;
+    }
+
+    .products-container{
+        width: 95%;
+        height: 300px;
+        margin-bottom: 50px;
+        //background-color: lightseagreen;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-bottom: 1px solid black;
+        
+
+        
+
+        .computer{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/laptop.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+        .computerTwo{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/computerTwo.jpg");
+            background-position: initial;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+        .computerThree{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/computerThree.jpg");
+            background-position: initial;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+        .computerFour{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/computerFour.jpg");
+            background-position: initial;
+            background-size: contain;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+    }
+    .products-containerTwo{
+        width: 95%;
+        height: 300px;
+        //margin-top: 50px;
+        margin-bottom: 50px;
+        //background-color: lightseagreen;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border-bottom: 1px solid black;
+
+        
+
+        .phone{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/phone.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+        .phoneTwo{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/phoneTwo.jpg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+        .phoneThree{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/phoneThree.jpg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+        .phoneFour{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/phoneFour.jpg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+    }
+    .products-containerThree{
+        width: 95%;
+        height: 300px;
+        //margin-top: 50px;
+        margin-bottom: 50px;
+        //background-color: lightseagreen;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+
+        
+
+        .watch{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/watch.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+        .watchTwo{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/watchTwo.jpg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+        .watchThree{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/watchThree.jpg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+        .watchFour{
+            //border: 1px solid grey;
+            width: 250px;
+            height: 160px;
+            //margin-top: 100px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: 
+                url("../images/watchFour.jpg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+    
+            h1 {
+                font-size: 30px;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: 400;
+                margin-left: 15px;
+                margin-top: 25px;
+            }
+            
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: white;
+                text-decoration: none;
+                color: black;
+                margin-left: -5px;
+                margin-top: 220px;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                }
+        }
+    }
+}

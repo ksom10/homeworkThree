@@ -1,0 +1,112 @@
+.about{
+    width: 100%;
+    height: 100%;
+    //background-color: limegreen;
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    //justify-content: center;
+
+    h1{
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        display: flex;
+        font-size: 60px;
+        text-align: center;
+        color: black;
+    }
+
+    .about-container{
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+        //background-color: lightseagreen;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        .ceo{
+            margin-left: 40px;
+            width: 600px;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            //justify-content: center;
+            background-image: url(../images/ceo.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            //margin-bottom: 40px;
+
+        }
+        .ceo-text{
+            margin-right: 40px;
+            width: 600px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            //background-color: lawngreen;
+
+            h1{
+                font-size: 40px;
+                color: black;
+            }
+            p{
+                font-size: 25px;
+                color: black;
+            }
+
+        }
+    } 
+    .about-containerTwo{
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+        //background-color: lightseagreen;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        .business-text{
+            margin-left: 40px;
+            width: 600px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            //background-color: lawngreen;
+
+            h1{
+                font-size: 40px;
+                color: black;
+            }
+            p{
+                font-size: 25px;
+                color: black;
+            }
+        }    
+        .business{
+            margin-right: 40px;
+            width: 600px;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            background-image: url(../images/business.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+
+            //justify-content: center;
+            //margin-bottom: 40px;
+
+        }
+    }
+}

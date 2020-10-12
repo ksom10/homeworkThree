@@ -1,0 +1,1458 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #0046be;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  nav h1 {
+    color: white;
+    font-size: 52px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 79px; }
+  nav .links {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    nav .links a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      margin-left: 15px;
+      margin-right: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+footer {
+  height: 50px;
+  background-color: #0046be;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  footer p {
+    margin: auto;
+    color: white; }
+
+.home h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 60px; }
+
+.home .home-container {
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .home .home-container .popular {
+    margin-left: 40px;
+    width: 600px;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background-image: url(../images/mac.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 40px; }
+    .home .home-container .popular .popularText {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      color: white;
+      font-family: sans-serif;
+      text-align: right;
+      margin-left: 10px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .home .home-container .popular .popularText h1 {
+        font-size: 35px;
+        text-align: right;
+        margin-left: 350px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  .home .home-container .today {
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 600px;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid gray; }
+    .home .home-container .today .todayText {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      color: black;
+      font-family: sans-serif;
+      text-align: right;
+      margin-left: 10px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .home .home-container .today .todayText h1 {
+        font-size: 35px;
+        text-align: right;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .home .home-container .today .todayProducts {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      width: 90%;
+      height: 400px; }
+      .home .home-container .today .todayProducts .phone {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 250px;
+        width: 175px;
+        background-image: url(../images/phone.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+        .home .home-container .today .todayProducts .phone h1 {
+          font-size: 15px;
+          color: white;
+          text-decoration: none;
+          font-family: sans-serif;
+          font-weight: 400;
+          margin-left: 15px;
+          margin-top: 25px; }
+        .home .home-container .today .todayProducts .phone .site-button {
+          padding: 10px 25px;
+          background-color: white;
+          text-decoration: none;
+          color: black;
+          margin-left: -5px;
+          margin-top: 175px;
+          border-radius: 20px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+      .home .home-container .today .todayProducts .laptop {
+        height: 250px;
+        width: 175px;
+        background-image: url(../images/laptop.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+        .home .home-container .today .todayProducts .laptop .site-button {
+          padding: 10px 25px;
+          background-color: white;
+          text-decoration: none;
+          color: black;
+          margin-left: -5px;
+          margin-top: 175px;
+          border-radius: 20px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+      .home .home-container .today .todayProducts .watch {
+        height: 250px;
+        width: 175px;
+        background-image: url(../images/watch.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+        .home .home-container .today .todayProducts .watch .site-button {
+          padding: 10px 25px;
+          background-color: white;
+          text-decoration: none;
+          color: black;
+          margin-left: -5px;
+          margin-top: 175px;
+          border-radius: 20px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+
+.products {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .products h1 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    color: black; }
+  .products h2 {
+    font-size: 30px;
+    color: #0046be;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    margin-left: 20px; }
+  .products .products-container {
+    width: 95%;
+    height: 300px;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black; }
+    .products .products-container .computer {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/laptop.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .products .products-container .computer h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-container .computer .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .products .products-container .computerTwo {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/computerTwo.jpg");
+      background-position: initial;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .products .products-container .computerTwo h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-container .computerTwo .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .products .products-container .computerThree {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/computerThree.jpg");
+      background-position: initial;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .products .products-container .computerThree h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-container .computerThree .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .products .products-container .computerFour {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/computerFour.jpg");
+      background-position: initial;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .products .products-container .computerFour h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-container .computerFour .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+  .products .products-containerTwo {
+    width: 95%;
+    height: 300px;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black; }
+    .products .products-containerTwo .phone {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/phone.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .products .products-containerTwo .phone h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-containerTwo .phone .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .products .products-containerTwo .phoneTwo {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/phoneTwo.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .products .products-containerTwo .phoneTwo h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-containerTwo .phoneTwo .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .products .products-containerTwo .phoneThree {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/phoneThree.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .products .products-containerTwo .phoneThree h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-containerTwo .phoneThree .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .products .products-containerTwo .phoneFour {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/phoneFour.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .products .products-containerTwo .phoneFour h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-containerTwo .phoneFour .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+  .products .products-containerThree {
+    width: 95%;
+    height: 300px;
+    margin-bottom: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .products .products-containerThree .watch {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/watch.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .products .products-containerThree .watch h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-containerThree .watch .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .products .products-containerThree .watchTwo {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/watchTwo.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .products .products-containerThree .watchTwo h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-containerThree .watchTwo .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .products .products-containerThree .watchThree {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/watchThree.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .products .products-containerThree .watchThree h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-containerThree .watchThree .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .products .products-containerThree .watchFour {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/watchFour.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .products .products-containerThree .watchFour h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .products .products-containerThree .watchFour .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+
+.deals {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .deals h1 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    color: black; }
+  .deals h2 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    color: black; }
+  .deals p {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    color: black; }
+  .deals .deals-container {
+    width: 95%;
+    height: 300px;
+    margin-bottom: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .deals .deals-container .deal {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/deal.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .deals .deals-container .deal h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .deals .deals-container .deal .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .deals .deals-container .dealTwo {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/dealTwo.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .deals .deals-container .dealTwo h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .deals .deals-container .dealTwo .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .deals .deals-container .dealThree {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/dealThree.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .deals .deals-container .dealThree h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .deals .deals-container .dealThree .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+    .deals .deals-container .dealFour {
+      width: 250px;
+      height: 160px;
+      margin-left: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-image: url("../images/dealFour.jpg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; }
+      .deals .deals-container .dealFour h1 {
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 400;
+        margin-left: 15px;
+        margin-top: 25px; }
+      .deals .deals-container .dealFour .site-button {
+        padding: 10px 25px;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin-left: -5px;
+        margin-top: 220px;
+        border-radius: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+
+.about {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .about h1 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    color: black; }
+  .about .about-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 30px; }
+    .about .about-container .ceo {
+      margin-left: 40px;
+      width: 600px;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      background-image: url(../images/ceo.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .about .about-container .ceo-text {
+      margin-right: 40px;
+      width: 600px;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .about .about-container .ceo-text h1 {
+        font-size: 40px;
+        color: black; }
+      .about .about-container .ceo-text p {
+        font-size: 25px;
+        color: black; }
+  .about .about-containerTwo {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 30px; }
+    .about .about-containerTwo .business-text {
+      margin-left: 40px;
+      width: 600px;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .about .about-containerTwo .business-text h1 {
+        font-size: 40px;
+        color: black; }
+      .about .about-containerTwo .business-text p {
+        font-size: 25px;
+        color: black; }
+    .about .about-containerTwo .business {
+      margin-right: 40px;
+      width: 600px;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      background-image: url(../images/business.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+
+.contact {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .contact h1 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 60px;
+    text-align: center;
+    color: black; }
+  .contact .contact-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 30px; }
+    .contact .contact-container .contact-pic {
+      margin-left: 40px;
+      width: 600px;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      background-image: url(../images/contact.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    .contact .contact-container .contact-text {
+      margin-right: 40px;
+      border: 1px solid black;
+      width: 600px;
+      height: 95%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start; }
+      .contact .contact-container .contact-text h1 {
+        font-size: 40px;
+        color: black; }
+      .contact .contact-container .contact-text p {
+        font-size: 25px;
+        color: black; }

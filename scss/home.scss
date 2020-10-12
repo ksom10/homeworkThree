@@ -1,0 +1,169 @@
+.home{
+    h1{
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+    }
+
+    .home-container{
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+        //background-color: lightseagreen;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .popular{
+            margin-left: 40px;
+            width: 600px;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            //justify-content: center;
+            background-image: url(../images/mac.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 40px;
+
+            .popularText{
+                display: flex;
+                color: white;
+                font-family: sans-serif;
+                text-align: right;
+                margin-left: 10px;
+                align-items: center;
+            
+                h1{
+                    font-size: 35px;
+                    text-align: right;
+                    margin-left: 350px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+            }
+        }
+        .today{
+            margin-right: 40px;
+            margin-bottom: 40px;
+            width: 600px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid gray;
+            //justify-content: center;
+
+            .todayText{
+                display: flex;
+                color: black;
+                font-family: sans-serif;
+                text-align: right;
+                margin-left: 10px;
+                align-items: center;
+            
+                h1{
+                    font-size: 35px;
+                    text-align: right;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+            }
+
+            .todayProducts{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 90%;
+                height: 400px;
+                //background-color: green;
+
+                .phone{
+                    display: flex;
+                    flex-direction: column;
+                    height: 250px;
+                    width: 175px;
+                    background-image: url(../images/phone.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+
+                    h1 {
+                        font-size: 15px;
+                        color: white;
+                        text-decoration: none;
+                        font-family: sans-serif;
+                        font-weight: 400;
+                        margin-left: 15px;
+                        margin-top: 25px;
+                    }
+                    
+                    
+                    .site-button {
+                        padding: 10px 25px;
+                        background-color: white;
+                        text-decoration: none;
+                        color: black;
+                        margin-left: -5px;
+                        margin-top: 175px;
+                        border-radius: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        }
+                }
+                .laptop{
+                    height: 250px;
+                    width: 175px;
+                    //background-color: indigo;
+                    background-image: url(../images/laptop.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+
+
+                    .site-button {
+                        padding: 10px 25px;
+                        background-color: white;
+                        text-decoration: none;
+                        color: black;
+                        margin-left: -5px;
+                        margin-top: 175px;
+                        border-radius: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        }
+                }
+                .watch{
+                    height: 250px;
+                    width: 175px;
+                    background-image: url(../images/watch.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+
+                    .site-button {
+                        padding: 10px 25px;
+                        background-color: white;
+                        text-decoration: none;
+                        color: black;
+                        margin-left: -5px;
+                        margin-top: 175px;
+                        border-radius: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        }
+                }
+            }
+        }
+    }
+}
